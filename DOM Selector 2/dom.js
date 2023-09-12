@@ -21,3 +21,6 @@ console.log(para)
 // manipulating style of h1 through JS
 heading.style.color='red'
 para.style.backgroundColor='grey';
+
+const headingClass=document.getElementsByClassName('first')
+console.log(headingClass)
