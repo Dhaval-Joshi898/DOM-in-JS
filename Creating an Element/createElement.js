@@ -12,3 +12,7 @@ div.appendChild(paragraph)            //added p  inside the div
 const btn=document.createElement('button')
 btn.textContent='Click Here';
 div.appendChild(btn)
+
+const heading1=document.createElement('h1')
+heading1.textContent='This is written inside h1 through JS'
+div.append(heading1,'THis is wriiten in append method (as second argument) in JS for appending more than one arguments')
