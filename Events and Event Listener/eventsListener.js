@@ -14,7 +14,7 @@ console.log(para)
 const paragraph=document.getElementById('para').textContent  //to get the content inside the element tag
 console.log(paragraph)
 
-indexONe.addEventListener('click',toAlert)
+indexONe[1].addEventListener('click',toAlert)
 
 function toAlert(){
     alert('You have entered heading 2')
