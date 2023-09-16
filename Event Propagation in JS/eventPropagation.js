@@ -23,3 +23,10 @@ document.body.addEventListener('click',()=>{
 //Note: IF you clicked inner div then inner div and its parent will be consoled i.e. their events will run
 //And if outer div is clicked then outer div events and and its parent body will be run if addevent listener is there
 
+//So when we click Inner heading the event is triggered the click event and it will give:
+/*
+INNER HEADING CLICKED
+eventPropagation.js:9 Inner Div Clicked
+eventPropagation.js:16 Outer Div Clicked
+eventPropagation.js:20 Body  Clicked
+*/
