@@ -11,3 +11,7 @@ document.getElementById('innerdiv').addEventListener('click',()=>{
 
 //Now here what happens when i click Inner heading also the it console the inner heading clicked as well as 'Inner Div Clicked' though i have not clicked inner div
 //This is called bubbling the event will also run the parent event also -->in this case the parent is inner div of inner heading so inner div event is executed
+
+document.getElementsByClassName('outerDiv')[0].addEventListener('click',function(){
+    console.log('Outer Div Clicked')
+})
