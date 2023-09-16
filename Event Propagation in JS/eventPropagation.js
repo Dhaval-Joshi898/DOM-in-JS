@@ -15,3 +15,11 @@ document.getElementById('innerdiv').addEventListener('click',()=>{
 document.getElementsByClassName('outerDiv')[0].addEventListener('click',function(){
     console.log('Outer Div Clicked')
 })
+
+document.body.addEventListener('click',()=>{
+    console.log('Body  Clicked')
+})
+
+//Note: IF you clicked inner div then inner div and its parent will be consoled i.e. their events will run
+//And if outer div is clicked then outer div events and and its parent body will be run if addevent listener is there
+
