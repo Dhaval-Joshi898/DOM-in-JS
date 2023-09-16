@@ -14,7 +14,14 @@ document.getElementById('innerdiv').addEventListener('click',()=>{
 
 document.getElementsByClassName('outerDiv')[0].addEventListener('click',function(){
     console.log('Outer Div Clicked')
-})
+},true) //here true boolean is another parameter by default it is false
+//the true here is written when we click inner heading it will print
+/*
+Outer Div Clicked
+INNER HEADING CLICKED
+ Inner Div Clicked
+Body  Clicked 
+*/
 
 document.body.addEventListener('click',()=>{
     console.log('Body  Clicked')
