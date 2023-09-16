@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Propagation</title>
+    <style>
+        .outerDiv{
+            border:2px solid red;
+            margin:20px;
+        }
+        #innerdiv{
+            border:1px solid ;
+            margin:10px;
+        }
+        #h1{
+            background-color: darkgreen;
+            border:1px solid black;
+            margin :10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outerDiv" style="background-color: yellow;">
+        <div id="innerdiv" style="background-color: rgb(81, 221, 81);" >
+            <h1 id="h1"> Inner Heading</h1>
+        </div>
+    </div>
+</body>
+</html>
